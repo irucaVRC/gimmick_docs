@@ -87,8 +87,12 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'ドキュメント',
+              to: '/docs/documents',
+            },
+            {
+              label: 'FAQ',
+              to: '/docs/faq',
             },
           ],
         },
