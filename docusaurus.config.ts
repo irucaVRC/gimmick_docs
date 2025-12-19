@@ -43,8 +43,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/irucaVRC/docs',
+          // editUrl:
+          //   'https://github.com/irucaVRC/docs',
         },
         blog: false,
         theme: {
@@ -68,13 +68,13 @@ const config: Config = {
       },
       items: [
         {
-          to: '/docs/documents',
+          to: '/docs/gimmicks',
           position: 'left',
           label: 'ドキュメント',
         },
         {to: '/docs/faq', label: 'FAQ', position: 'left'},
         {
-          href: 'https://github.com/irucaVRC/docs',
+          href: 'https://github.com/irucaVRC/gimmick_docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -88,7 +88,7 @@ const config: Config = {
           items: [
             {
               label: 'ドキュメント',
-              to: '/docs/documents',
+              to: '/docs/gimmicks',
             },
             {
               label: 'FAQ',
@@ -122,7 +122,7 @@ const config: Config = {
             },*/
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/irucaVRC/gimmick_docs',
             },
           ],
         },
