@@ -72,7 +72,7 @@ const config: Config = {
           position: 'left',
           label: 'ドキュメント',
         },
-        {to: '/docs/faq', label: 'FAQ', position: 'left'},
+        {to: '/docs/contact', label: '問い合わせ', position: 'left'},
         {
           href: 'https://github.com/irucaVRC/gimmick_docs',
           label: 'GitHub',
@@ -91,8 +91,8 @@ const config: Config = {
               to: '/docs/gimmicks',
             },
             {
-              label: 'FAQ',
-              to: '/docs/faq',
+              label: '問い合わせ',
+              to: '/docs/contact',
             },
           ],
         },
