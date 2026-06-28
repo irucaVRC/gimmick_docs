@@ -20,5 +20,5 @@ sidebar_position: 3
 3. ButtonのOnClickイベントを以下のように設定する
     - イベントの対象はボタンのオブジェクト
     - UdonBehaviour.SendCustomEvent (string)を選択
-    - イベント名は`ChangeAvatar`
+    - イベント名は`ChangeAvatar`  
 ![Clickイベント](./buttonevent.png)
