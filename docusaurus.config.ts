@@ -127,7 +127,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} iruca. Built with Docusaurus.`,
+      copyright: `Copyright © 2025 iruca. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
