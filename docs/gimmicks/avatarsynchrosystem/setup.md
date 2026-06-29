@@ -18,7 +18,7 @@ https://modular-avatar.nadena.dev/ja/docs/manual-processing
 ![コンポーネントを追加](./addcomponent.png)
 5. 同コンポーネントの`自動設定する`ボタンを押す
 ![自動設定](./autosetting.png)
-6. アバターを非アクティブにする
+6. **アバターを非アクティブにする**
 7. [UIの設定](./ui.md)をする
 
 :::note
