@@ -3,10 +3,13 @@ title: ワールド設置アバターのセットアップ手順
 sidebar_position: 2
 ---
 ### 事前準備　アバタープロジェクトにあるアバターからアバターを持ってくる場合
-アバターにModular Avatarのコンポーネントが入っている場合は、以下のページを参考に`Manual bake avatar`する必要があります。  
+衣装展示などでアバターにデフォルトではない衣装を着せて使用する場合、Modular Avatarのコンポーネントが入っていることがあります。  
+その場合は、Modular Avatarの機能で`Manual bake avatar`があります。  
+アバタープロジェクトで、アバターの一番上の階層を右クリックで`Manual bake avatar`を選択します。  
+アバターと衣装のボーンが一体になったアバターのクローンが作成されます。  
+それを任意の場所にドラッグしてprefabにし、そのPrefabとアバターのテクスチャ等のデータおよび`Assets/ZZZ_GeneratedAssets`フォルダの中身をエクスポートして、ワールドデータに組み込んで下さい。
+詳しくは以下のページをご覧ください。  
 https://modular-avatar.nadena.dev/ja/docs/manual-processing
-
-その後、アバターをエクスポートしてください。
 
 ## セットアップ手順
 1. ワールドプロジェクトにアバターをインポートする
